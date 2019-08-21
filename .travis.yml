@@ -1,2 +1,2 @@
-compiler: clang
+compiler: gcc
 install: make main
