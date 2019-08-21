@@ -1,4 +1,10 @@
-main: main.c
-  gcc main.c
-  chmod a+x a.out
-  ./a.out
+all: main.exe
+
+main.exe: main.o
+	 gcc -o main.exe main.o
+
+main.o: main.c
+	 gcc -c main.c
+     
+clean:
+	 rm main.o main.exe
