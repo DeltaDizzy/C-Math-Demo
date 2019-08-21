@@ -1,2 +1,2 @@
 compiler: gcc
-install: make main
+install: make all
